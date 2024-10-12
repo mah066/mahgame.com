@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(135deg, #2c3e50, #bdc3c7);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.game-container {
+    background-color: rgba(44, 62, 80, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    color: #f39c12;
+    text-shadow: 0 0 10px rgba(243, 156, 18, 0.8);
+}
+
+.choices {
+    margin: 20px 0;
+}
+
+.choice {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.choice:hover {
+    background-color: #16a085;
+    transform: scale(1.1);
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.reset {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+.reset:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+}
